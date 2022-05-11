@@ -1,13 +1,13 @@
 const input = 'hey';
 const repeatTimes = 3;
 
-const repeatString = function(str, repeat) {
+const repeatString = (str, repeat) => {
     
     for (let i = 0; i < repeat; i++){
-        return str;
-    }
-
-}; 
+        return console.log(str);
+    }   
+};
+    
 
 
 repeatString(input, repeatTimes);
