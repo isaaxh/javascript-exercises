@@ -4,9 +4,9 @@ const repeatTimes = 3;
 const repeatString = (str, repeat) => {
     
     for (let i = 0; i < repeat; i++){
-        return console.log(str);
+        return str;
     }   
-};
+}
     
 
 
