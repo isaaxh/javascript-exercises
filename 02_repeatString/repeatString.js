@@ -1,14 +1,12 @@
 const input = 'hey';
-const repeatTimes = 5;
+const repeatTimes = 3;
 
 const repeatString = function(str, repeat) {
 
-    for (let i = 0; i < repeat; i++) {
-        
+    for (let i = 0; i < repeat; i++)
         return str;
-    }
-    
-};
+
+}; 
 
 repeatString(input, repeatTimes)
 
