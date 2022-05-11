@@ -1,18 +1,14 @@
-const input = 'hey';
-const repeatTimes = 3;
 
-const repeatString = (str, repeat) => {
-    
-    for (let i = 0; i < repeat; i++){
-        return str;
+
+const repeatString = (word, times) => {
+    if (times < 0) return 'ERROR!';    
+    let string = '';
+    for (let i = 0; i < times; i++){ 
+        string += word;
     }   
-}
+    return string;
+};
     
-
-
-repeatString(input, repeatTimes);
-
-
 
 // Do not edit below this line
 module.exports = repeatString;
