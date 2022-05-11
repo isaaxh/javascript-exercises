@@ -5,7 +5,7 @@ const repeatString = function(str, repeat) {
 
     for (let i = 0; i < repeat; i++) {
         
-        return console.log(str);
+        return str;
     }
     
 };
